@@ -1,15 +1,10 @@
 {
   "name": "tavily-mcp",
-  "version": "0.2.16",
-  "mcpName": "io.github.tavily-ai/tavily-mcp",
+  "version": "0.2.12",
   "description": "MCP server for advanced web search using Tavily",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/tavily-ai/tavily-mcp.git"
-  },
   "type": "module",
   "bin": {
-    "tavily-mcp": "build/index.js"
+    "tavily-mcp": "./build/index.js"
   },
   "files": [
     "build"
@@ -46,9 +41,9 @@
   "author": "Tavily",
   "license": "MIT",
   "dependencies": {
-    "@modelcontextprotocol/sdk": "1.26.0",
-    "dotenv": "^16.4.5",
+    "@modelcontextprotocol/sdk": "^1.25.2",
     "axios": "^1.6.7",
+    "dotenv": "^16.4.5",
     "yargs": "^17.7.2"
   },
   "devDependencies": {
